@@ -131,17 +131,7 @@
       <div id="progressBar"></div>
       <p id="loadingInfo">Loading...</p>
     </div>
-    <script type='text/javascript'>
-  var Module = {
-    TOTAL_MEMORY: 536870912,
-    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
-    compatibilitycheck: null,
-    dataUrl: "Release/BinKong.data",
-    codeUrl: "Release/BinKong.js",
-    memUrl: "Release/BinKong.mem",
-    
-  };
-</script>
+	
 <script src="Release/UnityLoader.js"></script>
 
     <script type="text/javascript">
@@ -153,5 +143,16 @@
       kongregateAPI.loadAPI(onLoadCompleted);
     </script>
 
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 536870912,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/BinKong.data",
+    codeUrl: "Release/BinKong.js",
+    memUrl: "Release/BinKong.mem",
+    
+  };
+</script>
   </body>
 </html>
